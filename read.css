@@ -1,0 +1,170 @@
+.comman_readmore{
+    width: 100%;
+}
+.first_blog{
+    letter-spacing: 0.02rem;
+    word-spacing: 0.3rem;
+    display: flex;
+    width: 100%;
+    height:fit-content;
+    margin: 0rem auto 4rem auto;
+}
+
+.first_blog p{
+    font-size: large;
+    font-family: 'Satisfy', cursive;
+}
+.first_blog img{
+ width: 40%;
+ filter: blur(1.4px);  
+ position: relative;
+ right: 0.1rem; 
+}
+.blog_con{
+    padding: 3rem;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), #D09877);
+}
+.blog_con_2{
+    padding: 3rem;
+    background-image: linear-gradient(to left, rgba(255,0,0,0), #cececb);
+}
+@media (max-width: 709px){
+    .first_blog{
+        flex-direction: column;
+    }
+    .first_blog img{
+        width: 100%;
+    }
+}
+
+.contact{
+    background-color: rgb(229, 227, 238);
+    height: 190vh;
+}
+
+.main{
+    padding: 4% 7%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.heading{
+    color: rgb(60, 64, 92);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* font-size: 3rem; */
+    padding-bottom: 1.4rem;
+}
+.Fill{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.meditaion{
+    width: 110%;
+}
+.fill-form{
+    width: 35%;
+}
+.enter{
+    width: 100%;
+    margin: 0.5rem 0rem 1rem 0rem;
+    padding: 0.3rem 0rem 0.3rem 0.5rem;
+    border: 1.2px solid black;
+    border-radius: 5px;
+}
+.text{
+    width: 100%;
+    border: 1.2px solid black;
+    border-radius: 5px;
+    padding: 0.3rem 0rem 0.3rem 0.3rem;
+}
+.btn-1{
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgb(159, 223, 130);
+    color: #fff;
+    border: none;
+    height: 2rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 1.5rem;
+}
+.btn-1:hover{
+    background-color:rgb(182, 218, 166) ;
+    cursor: pointer;
+}
+
+
+@media (max-width: 896px){
+    .contact{
+        background-color: rgb(229, 227, 238);
+        height: 85rem;
+    }
+    .Fill{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-wrap: wrap;
+        align-content: center;
+        width: 100%;
+    }
+    .main-img{
+        text-align: center;
+
+    }
+    .meditaion{
+        width: 80%;
+    }
+    .fill-form{
+        width: 95%;
+    }
+    .enter{
+        width: 100%;
+        margin: 0.5rem 0rem 1rem 0rem;
+        padding: 0.3rem 0rem 0.3rem 0.5rem;
+        border: 2px solid black;
+        border-radius: 5px;
+    }
+    .text{
+        width: 100%;
+        border: 2px solid black;
+        border-radius: 5px;
+        padding: 0.3rem 0rem 0.3rem 0.3rem;
+    }
+    .btn-1{
+        width: 100%;
+        border-radius: 5px;
+        background-color: rgb(159, 223, 130);
+        color: #fff;
+        border: none;
+        height: 2rem;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-top: 1.5rem;
+    }
+}
+
+/*  */
+.Act_inffo{
+    width: 90%;
+    margin: auto;
+    letter-spacing: 0.1rem;
+    line-height: 2;
+}
+.gallery{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    letter-spacing: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+.gallery img{
+    margin-bottom: 1rem;
+}
+.card-img-top {
+    width: 100%;
+    height:max-content;
+    object-fit: cover;
+}
